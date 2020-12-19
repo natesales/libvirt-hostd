@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6fd5218-3c23-4d54-895b-92599f65eda8" name="Default Changelist" comment="add main">
+      <change afterPath="$PROJECT_DIR$/libvirt-hostd.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/lib/go-1.15" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lrdOvGF62IvP5TvWZcLnOl2shk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6fd5218-3c23-4d54-895b-92599f65eda8" name="Default Changelist" comment="" />
+      <created>1608359115981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608359115981</updated>
+      <workItem from="1608359117104" duration="3256000" />
+      <workItem from="1608362433301" duration="530000" />
+    </task>
+    <task id="LOCAL-00001" summary="init repo">
+      <created>1608362679381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608362679381</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add binary to gitignore">
+      <created>1608362917013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608362917013</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init go mod">
+      <created>1608362931915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608362931915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init repo" />
+    <MESSAGE value="add binary to gitignore" />
+    <MESSAGE value="add go mod" />
+    <MESSAGE value="init go mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="init go mod" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1047" y="443" width="455" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1608360687728">
+      <screen x="0" y="34" width="2560" height="1406" />
+    </state>
+    <state x="1047" y="443" width="455" height="585" key="#com.intellij.ide.util.MemberChooser/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608360687728" />
+    <state x="853" y="247" width="844" height="977" key="CommitChangelistDialog2" timestamp="1608362937035">
+      <screen x="0" y="34" width="2560" height="1406" />
+    </state>
+    <state x="853" y="247" width="844" height="977" key="CommitChangelistDialog2/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608362937035" />
+    <state x="769" y="372" key="SettingsEditor" timestamp="1608362962902">
+      <screen x="0" y="34" width="2560" height="1406" />
+    </state>
+    <state x="769" y="372" key="SettingsEditor/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608362962902" />
+    <state x="943" y="354" width="672" height="678" key="search.everywhere.popup" timestamp="1608362957067">
+      <screen x="0" y="34" width="2560" height="1406" />
+    </state>
+    <state x="943" y="354" width="672" height="678" key="search.everywhere.popup/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608362957067" />
+  </component>
+</project>
