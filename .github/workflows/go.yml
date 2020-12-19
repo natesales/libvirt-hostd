@@ -53,7 +53,7 @@ jobs:
           Priority: optional
           Architecture: amd64
           Maintainer: Nate Sales <nate@natesales.net>
-          Description: HTTP RPC API for libvirt " > debian/DEBIAN/control
+          Description: HTTP RPC API for libvirt" > debian/DEBIAN/control
 
       - name: Create debian copyright file
         run: echo "Copyright 2020 Nathan Sales." > debian/DEBIAN/copyright

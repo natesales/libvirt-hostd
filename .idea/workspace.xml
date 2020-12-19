@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6fd5218-3c23-4d54-895b-92599f65eda8" name="Default Changelist" comment="add main">
-      <change afterPath="$PROJECT_DIR$/libvirt-hostd.go" afterDir="false" />
-    </list>
+    <list default="true" id="d6fd5218-3c23-4d54-895b-92599f65eda8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608359115981</updated>
       <workItem from="1608359117104" duration="3256000" />
-      <workItem from="1608362433301" duration="530000" />
+      <workItem from="1608362433301" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="init repo">
       <created>1608362679381</created>
@@ -69,18 +67,41 @@
       <option name="project" value="LOCAL" />
       <updated>1608362931915</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init repo">
+      <created>1608362979236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608362979236</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add badges to readme">
+      <created>1608363082476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608363082476</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add ci build workflow">
+      <created>1608363156304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608363156304</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init repo" />
     <MESSAGE value="add binary to gitignore" />
     <MESSAGE value="add go mod" />
     <MESSAGE value="init go mod" />
-    <option name="LAST_COMMIT_MESSAGE" value="init go mod" />
+    <MESSAGE value="init repo" />
+    <MESSAGE value="add badges to readme" />
+    <MESSAGE value="add ci build workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ci build workflow" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -90,14 +111,18 @@
       <screen x="0" y="34" width="2560" height="1406" />
     </state>
     <state x="1047" y="443" width="455" height="585" key="#com.intellij.ide.util.MemberChooser/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608360687728" />
-    <state x="853" y="247" width="844" height="977" key="CommitChangelistDialog2" timestamp="1608362937035">
+    <state x="853" y="247" width="844" height="977" key="CommitChangelistDialog2" timestamp="1608363156239">
       <screen x="0" y="34" width="2560" height="1406" />
     </state>
-    <state x="853" y="247" width="844" height="977" key="CommitChangelistDialog2/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608362937035" />
+    <state x="853" y="247" width="844" height="977" key="CommitChangelistDialog2/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608363156239" />
     <state x="769" y="372" key="SettingsEditor" timestamp="1608362962902">
       <screen x="0" y="34" width="2560" height="1406" />
     </state>
     <state x="769" y="372" key="SettingsEditor/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608362962902" />
+    <state x="875" y="458" width="800" height="555" key="Vcs.Push.Dialog.v2" timestamp="1608363236096">
+      <screen x="0" y="34" width="2560" height="1406" />
+    </state>
+    <state x="875" y="458" width="800" height="555" key="Vcs.Push.Dialog.v2/0.34.2560.1406/2560.174.1920.1080@0.34.2560.1406" timestamp="1608363236096" />
     <state x="943" y="354" width="672" height="678" key="search.everywhere.popup" timestamp="1608362957067">
       <screen x="0" y="34" width="2560" height="1406" />
     </state>

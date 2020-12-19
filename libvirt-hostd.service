@@ -1,0 +1,13 @@
+[Unit]
+Description=HTTP RPC API for libvirt
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/default/libvirt-hostdd
+ExecStart=/usr/bin/libvirt-hostdd $LIBVIRT_HOSTD_OPTS
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
