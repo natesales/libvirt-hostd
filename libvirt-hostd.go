@@ -82,6 +82,21 @@ func hRebootVM(w http.ResponseWriter, r *http.Request) {
 	return
 }
 
+func hState(w http.ResponseWriter, r *http.Request) {
+	err, vmUuid := toUuid(mux.Vars(r)["uuid"], libvirt.ConnectListDomainsActive)
+	if err != nil {
+		fmt.Fprintf(w, "Error: (query) "+err.Error())
+	}
+
+	state, reason, err := lvrt.DomainGetState(libvirt.Domain{UUID: vmUuid}, 0)
+	if err != nil {
+		fmt.Fprintf(w, "Error: "+err.Error())
+		return
+	}
+	fmt.Fprintf(w, "Status %d %d", state, reason)
+	return
+}
+
 func main() {
 	c, err := net.DialTimeout("tcp", "10.0.100.1:16509", 2*time.Second)
 	if err != nil {
@@ -112,6 +127,7 @@ func main() {
 	r.HandleFunc("/shutdown/{uuid}", hShutdownVM)
 	r.HandleFunc("/reset/{uuid}", hResetVM)
 	r.HandleFunc("/reboot/{uuid}", hRebootVM)
+	r.HandleFunc("/state/{uuid}", hState)
 	http.Handle("/", r)
 
 	log.Printf("Starting server on %s\n", *bindAddr)
