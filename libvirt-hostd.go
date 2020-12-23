@@ -85,7 +85,10 @@ func hRebootVM(w http.ResponseWriter, r *http.Request) {
 func hState(w http.ResponseWriter, r *http.Request) {
 	err, vmUuid := toUuid(mux.Vars(r)["uuid"], libvirt.ConnectListDomainsActive)
 	if err != nil {
-		fmt.Fprintf(w, "Error: (query) "+err.Error())
+		err, vmUuid = toUuid(mux.Vars(r)["uuid"], libvirt.ConnectListDomainsShutoff)
+		if err != nil {
+			fmt.Fprintf(w, "Error: (query) "+err.Error())
+		}
 	}
 
 	state, reason, err := lvrt.DomainGetState(libvirt.Domain{UUID: vmUuid}, 0)
